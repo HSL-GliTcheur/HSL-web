@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+#section-1 {
+    height: 100vh;
+    background-image: url(../image/background\ site.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#section-1 header {
+    background-color: black;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 100%;
+    min-width: 100%;
+    margin: 0 auto;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+#section-1 header nav a {
+    color: rgb(32, 32, 32);
+    font-weight: 300;
+    margin-left: 50px;
+    margin-right: 10px;
+    font-size: 10.2px;
+}
+
+#section-1 header nav a:nth-child(1) {
+    color: rgb(255, 142, 36);
+    border: 1.2px solid rgb(255, 142, 36);
+    padding: 4px;
+    border-radius: 9px;
+    background-color: rgba(255, 142, 36, 0.171);
+    font-size: 10.2px;
+}
+
+#section-1 header nav a:nth-child(2) {
+    color: rgb(218, 124, 255);
+    border: 1.2px solid rgb(218, 124, 255);
+    padding: 4px;
+    border-radius: 9px;
+    background-color: rgba(255, 0, 170, 0.281);
+    font-size: 10.2px;
+}
+
+#section-1 header nav a:nth-child(3) {
+    color: rgb(124, 255, 189);
+    border: 1.2px solid rgb(124, 255, 189);
+    padding: 4px;
+    border-radius: 9px;
+    background-color: rgba(124, 255, 189, 0.231);
+    font-size: 10.2px;
+}
+
+#home {
+    color: rgb(255, 255, 255);
+    margin-left: 5px;
+}
+
+@media screen and (max-width: 411px) {
+    #section-1 header .left #home {
+        display: none;
+    }
+
+    #section-1 header nav a {
+        justify-content: fisrt center;
+        margin-left: 25px;
+        margin-right: 5px;
+    }
+}
+
+ 
+#section-1 .container #left2 #titre-youtube {
+    display: flex;
+    position: initial;
+    margin-top: 10px;
+    margin-left: 15%;
+    font-size: 40px;
+    color: black;
+    font-family: 'Dancing Script', cursive;
+}
+
+#section-1 .container #left2 .description {
+    display: flex;
+    position: initial;
+    margin-top: 10px;
+    margin-left: 21.5%;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    color: black;
+    max-width: 65%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#left2 {
+    position: absolute;
+    /* border: 5px solid red; */
+    top: 80px;
+    margin-right: 20%;
+    margin-left: 5%;
+    padding-right: -300px;
+    box-shadow:
+    0 0 10vw 0vw #7476ff,
+    0 0 2vw 0.4vw #0408fb,
+    
+    inset 0 0 .5vw 0.2vw #7476ff,
+    inset 0 0 0.2vw 0.2vw #3134ff,
+    inset 0 0 .25vw 0.2vw #0408fb; 
+
+    background-color: rgb(100, 100, 100);
+    text-shadow: 1px 1px 1px rgb(197, 197, 255);
+    border-radius: 12px;
+    max-width: 280px;
+    min-height: auto;
+    padding-bottom: auto;
+}
+
+#section-1 .container .right2 {
+    margin-left: 50%;
+    margin-right: 5%;
+    margin-top: 20px;
+    padding: 0 0 0 0;
+    width: 400px;
+    height: 400px;
+    right: 10px;
+    
+}
+
+@media screen and (max-width: 822px) {
+    .minia {
+        width: 200px;
+        height: auto;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding: 0 0 0 0;
+        display: flex;
+        position: relative;
+        right: 10px;
+
+    }
+
+    #left2 {
+        margin-left: 10%;
+        max-width: 300px;
+        padding-right: 0px;
+    }
+}
+
+
+@media screen and (max-width: 822px) {
+    .minia {
+        width: 200px;
+        height: auto;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding: 0;
+        display: flex;
+        position: absolute;
+    }
+
+    #section-1 .container .right2 {
+        margin-right: 5px;
+        width: 200px;
+        height: auto;
+        display: flex;
+        position: absolute;
+    }
+}
+
+ @media screen and (max-width: 591px) {
+    .minia {
+        display: none;
+    }
+} 
+
+@media screen and (min-width: 1250px) {
+    #section-1 .container #left2 .description {
+        font-size: 20px;
+    }
+    #left2 {
+        max-width: 400px;
+    }
+
+    #section-1 .container #left2 #titre-youtube {
+        margin-left: 25%;
+        font-size: 50px;
+    }
+}
+
+@media screen and (min-width: 1960px) {
+    #section-1 .container #left2 .description {
+        font-size: 30px;
+    }
+    #left2 {
+        max-width: 600px;
+    }
+    #section-1 .container #left2 #titre-youtube {
+        margin-left: 26%;
+        font-size: 70px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    #section-1 .container #left2 .description {
+        font-size: 14px;
+    }
+    #section-1 .container #left2 #titre-youtube {
+        margin-left: 24%;
+        font-size: 30px;
+    }
+}
+
+
+
+
+
+#section-2 {
+    height: 100vh;
+    background-image: url(../image/background\ site.png\ N°2.png);
+    background-size: cover;
+    background-position: center;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
+#progressbar {
+    display: flex;
+    position: fixed;
+    top: 0px;
+    right: 0;
+    width: 10px;
+    border-radius: 10px;
+    background: linear-gradient(to top, #fcb045, #fd1d1d, #900ce7);
+}
+

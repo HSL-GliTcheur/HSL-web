@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HSL GliTcheur</title>
+    <!-- ----- font ----- -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="progressbar"></div>
+    <section id="section-1">
+        <header>
+            <div class="left">
+            <span id="home" class="material-symbols-outlined">
+                rocket_launch 
+            </span>
+            </div>
+            <div class="right">
+                <nav>
+                <a href="">Mon YouTube</a>
+                <a href="#">Mes Activités</a>
+                <a href="#">Mes Projets</a>
+            </nav>
+            </div>
+        </header>
+        <div class="container">
+            <div id="left2">
+                <a href="https://www.youtube.com/channel/UCvsylDv6H0vy5TL5Bszylvg" target="_blank">
+                    <h1 id="titre-youtube">Mon Youtube</h1>
+                </a>
+                <p class="description">Mon Youtube est principalement basé sur Minecraft et Rocket League. Je teste de temps en temps d'autres jeux comme GTA, super-animal royal ou encore farming ...
+                    le but de ma chaine n'est pas d'avoir un nombre astronomic d'abonner mais d'avoir une communauté active et joyeuse si vous êtes interné cliqué sur le titre (Youtube) </p>
+            </div>
+            
+            <div class="right2">
+                <a href="https://www.youtube.com/playlist?list=PLP-bkh3ff16TvsAQzVazCFa3-dtMLi2Ed" target="_blank">
+                    <img src="image/image présentation 1.png" alt="miniature youtube" class="minia">
+                </a>
+            </div>
+        </div>
+    </section>
+    <section id="section-2">
+
+    </section>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script type="text/javascript">
+        $(window).scroll(function(){
+    var scroll = $(window).scrollTop(),
+    dh = $(document).height(),
+    wh = $(window).height();
+    scrollPercent = (scroll / (dh-wh)) * 100;
+    $('#progressbar').css('height', scrollPercent + '%');
+})
+    </script>
+    <script src="../site HSL youtube/js/script.js"></script>
+</body>
+</html>
