@@ -141,7 +141,7 @@
         height: auto;
         margin-top: 0px;
         margin-bottom: 0px;
-        padding: 0 0 0 0;
+        padding: 0;
         display: flex;
         position: relative;
         right: 10px;
@@ -153,20 +153,6 @@
         max-width: 300px;
         padding-right: 0px;
     }
-}
-
-
-@media screen and (max-width: 822px) {
-    .minia {
-        width: 200px;
-        height: auto;
-        margin-top: 0px;
-        margin-bottom: 0px;
-        padding: 0;
-        display: flex;
-        position: absolute;
-    }
-
     #section-1 .container .right2 {
         margin-right: 5px;
         width: 200px;
@@ -178,9 +164,141 @@
 
  @media screen and (max-width: 591px) {
     .minia {
-        display: none;
+        width: 200px;
+        height: auto;
+        top: 100px;
     }
-} 
+    #section-1 .container #left2 .description {
+        font-size: 15px;
+    }
+    #left2 {
+        max-width: 250px;
+    }
+
+    #section-1 .container #left2 #titre-youtube {
+        margin-left: 25%;
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .minia {
+        width: 190px;
+        height: auto;
+        top: 100px;
+    }
+    #section-1 .container #left2 .description {
+        font-size: 13px;
+    }
+    #left2 {
+        max-width: 230px;
+        margin-left: 4.5%;
+    }
+
+    #section-1 .container #left2 #titre-youtube {
+        margin-left: 25%;
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .minia {
+        width: 180px;
+        height: auto;
+        top: 80px;
+    }
+    #section-1 .container #left2 .description {
+        font-size: 11px;
+    }
+    #left2 {
+        max-width: 200px;
+        margin-left: 4.3%;
+    }
+
+    #section-1 .container #left2 #titre-youtube {
+        margin-left: 22%;
+        font-size: 25px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 419px) {
+    .minia {
+        width: 150px;
+        height: auto;
+        top: 50px;
+        left: 30px;
+    }
+    #section-1 .container #left2 .description {
+        font-size: 8px;
+    }
+    #left2 {
+        max-width: 180px;
+        margin-left: 4%;
+    }
+
+    #section-1 .container #left2 #titre-youtube {
+        margin-left: 22%;
+        font-size: 25px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .minia {
+        width: 150px;
+        height: auto;
+        top: 50px;
+        left: 37%;
+    }
+    #section-1 .container #left2 .description {
+        font-size: 10px;
+    }
+    #left2 {
+        max-width: 180px;
+        margin-left: 4%;
+    }
+
+    #section-1 .container #left2 #titre-youtube {
+        margin-left: 22%;
+        font-size: 27px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .minia {
+        width: 150px;
+        height: auto;
+        top: 50px;
+        left: 45%;
+    }
+    #section-1 .container #left2 .description {
+        font-size: 9px;
+    }
+    #left2 {
+        max-width: 160px;
+        margin-left: 3%;
+    }
+
+    #section-1 .container #left2 #titre-youtube {
+        margin-left: 18%;
+        font-size: 25px;
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+@media screen and (min-width: 2060px) {
+    .minia {
+        width: 600px;
+        height: auto;
+    }
+}
 
 @media screen and (min-width: 1250px) {
     #section-1 .container #left2 .description {
@@ -206,16 +324,6 @@
     #section-1 .container #left2 #titre-youtube {
         margin-left: 26%;
         font-size: 70px;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    #section-1 .container #left2 .description {
-        font-size: 14px;
-    }
-    #section-1 .container #left2 #titre-youtube {
-        margin-left: 24%;
-        font-size: 30px;
     }
 }
 
