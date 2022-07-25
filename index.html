@@ -26,7 +26,7 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div id="progressbar"></div>
+    
     <section id="section-1">
         <header>
             <div class="left">
@@ -36,8 +36,8 @@
             </div>
             <div class="right">
                 <nav>
-                <a href="">Mon YouTube</a>
-                <a href="#">Mes Activités</a>
+                <a href="#titre-youtube">Mon YouTube</a>
+                <a href="#section-2">Mes Activités</a>
                 <a href="#">Mes Projets</a>
             </nav>
             </div>
@@ -61,27 +61,32 @@
     <section id="section-2">
         <h1 class="titreAct" >Mes Activités</h1>
 
-        <div class="parent">
-        <h1 class="T1">Mes serveurs Minecraft</h1>
-            <div class="enfant"><p class="txt">Je créer aussi des serveurs minecraft bedrock avec un ami buildeur "La-vadrouille51" <br> j'ai créé un serveur "PVP Faction ; un bedwars". Je m'occupe des commandes et La-vadrouille51 s'occupe du build</p>
-            </div>
-            </div>
-        
+        <div onclick="ouvrirFermerSpoiler(this);">
+            <span class="bouton-1">Mes serveurs Minecraft</span>
+            <div class="spoiler">
+               <div class="contenuSpoiler cacher">
+                <p class="txt">Je créer aussi des serveurs minecraft bedrock avec un ami buildeur "La-vadrouille51" <br> j'ai créé un serveur "PVP Faction ; un bedwars". Je m'occupe des commandes et La-vadrouille51 s'occupe du build</p>
+                 
+               </div>
+           </div>
+        </div>
+
+        <div onclick="ouvrirFermerSpoiler(this);">
+            <span class="bouton-1">Mon serveur Discord</span>
+            <div class="spoiler">
+               <div class="contenuSpoiler cacher">
+                <p class="txt">J'ai commencé à creer un discord pour mon serveur HSL PVP faction et pour ma chaine Youtube avec mon propre bot pour le serveur HSL  PVP faction</p>
+                 
+               </div>
+           </div>
+        </div>
+
     </section>
 
 
-    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
-    <script type="text/javascript">
-        $(window).scroll(function(){
-    var scroll = $(window).scrollTop(),
-    dh = $(document).height(),
-    wh = $(window).height();
-    scrollPercent = (scroll / (dh-wh)) * 100;
-    $('#progressbar').css('height', scrollPercent + '%');
-})
-    </script>
 
-    <script src="../site HSL youtube/js/script.js"></script>
+
+    <script src="/js/script.js"></script>
 
 </body>
 </html>
