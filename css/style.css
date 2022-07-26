@@ -5,6 +5,11 @@
     text-decoration: none;
 }
 
+
+html {
+    scroll-behavior: smooth;
+}
+
 ::-webkit-scrollbar {
     width: 15px;
 }
@@ -488,76 +493,46 @@
     font-family: 'Marck Script', cursive;
 }
 
-/* .activiti1 h1 {
-    font-family: 'Dancing Script', cursive;
+.toute-box {
+    margin: 10px 100px 0 100px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.box-1 {
+    background-color: #a7d33e;
+    width: 300px;
+    height: 300px;
+}
+
+.Tbox-1 {
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
     font-size: 25px;
-    text-align: center;
-    justify-content: center;
 }
 
-.activiti1 {
-    background-color: #add743a2;
-} */
-
-.cacher {
-    height: 0;
-    visibility: hidden;
-    }
-    .afficher {
-    height: auto;
-    visibility: visible;
-    }
-
-.bouton-1 {
-    padding: 4px 4px 4px 4px;
-    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.3);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-left: 42%;
-    margin-right: 42%;
-    display: inline-block;
-    margin-top: 20px;
-    justify-content: center;
+.Pbox-1 {
     text-align: center;
-    border: 1px solid black;
-    border-radius: 10px;
-    cursor: pointer;
-    background-color: #b0da46;
-    position: relative;
-}
-
-.bouton-2 {
-    padding: 4px 4px 4px 4px;
-    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.3);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-left: 42.5%;
-    margin-right: 44%;
-    display: inline-block;
-    margin-top: 20px;
-    justify-content: center;
-    text-align: center;
-    border: 1px solid black;
-    border-radius: 10px;
-    cursor: pointer;
-    background-color: #5865f2;
-    position: relative;
-}
-    
-.spoiler {
-    justify-content: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    position: relative;
-    text-align: center;
-    margin-top: 5px;
-}  
-
-.txt {
-    text-align: center;
-    font-size: medium;
+    font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #ddd;
-    display: initial;
+    
 }
 
-html {
-    scroll-behavior: smooth;
+.box-2 {
+    background-color: #5562ea;
+    width: 300px;
+    height: 300px;
+}
+
+.Tbox-2 {
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    font-size: 25px;
+}
+
+.Pbox-2 {
+    text-align: center;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    
 }
