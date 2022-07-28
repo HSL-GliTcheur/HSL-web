@@ -20,6 +20,39 @@ html {
     border: 2.7px solid black;
 }
 
+.remonter {
+    height: 100px;
+    width: 100px;
+    background: darkgray;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    cursor: pointer;
+}
+
+.icone {
+    width: 50px;
+}
+
+@media screen and (max-width: 425px) {
+    .remonter {
+        height: 50px;
+        width: 50px;
+        cursor: pointer;
+    }
+    
+    .icone {
+        width: 5px;
+    }
+}
+
+
+
+
 
 #section-1 {
     height: 100vh;
@@ -493,16 +526,28 @@ html {
     font-family: 'Marck Script', cursive;
 }
 
+@media screen and (max-width: 425px) {
+    .titreAct {
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+}
+
 .toute-box {
-    margin: 10px 100px 0 100px;
+    margin: 10px 10% 0 10%;
     justify-content: space-between;
     display: flex;
+    align-items: center;
+    height: 350px;
+    overflow-x: scroll;
+    scrollbar-width: thin;
 }
+
 
 .box-1 {
     background-color: #a7d33e;
     width: 300px;
-    height: 300px;
+    height: 330px;
 }
 
 .Tbox-1 {
@@ -521,7 +566,7 @@ html {
 .box-2 {
     background-color: #5562ea;
     width: 300px;
-    height: 300px;
+    height: 330px;
 }
 
 .Tbox-2 {
@@ -535,4 +580,19 @@ html {
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
     
+}
+
+
+
+
+
+#section-3 {
+    height: 100vh;
+}
+
+.titre-actu {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Marck Script', cursive;
+    margin: 5px 0 10px 0;
 }
