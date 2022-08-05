@@ -252,6 +252,45 @@ html {
     } 
 }
 
+@media screen and (max-width: 320px) {
+
+    #section-1 header nav a:nth-child(1) {
+        color: rgb(255, 142, 36);
+        border: 1.2px solid rgb(255, 142, 36);
+        padding: 3px;
+        border-radius: 9px;
+        background-color: rgba(255, 142, 36, 0.171);
+        font-size: 7px;
+    }
+    
+    #section-1 header nav a:nth-child(2) {
+        color: rgb(218, 124, 255);
+        border: 1.2px solid rgb(218, 124, 255);
+        padding: 3px;
+        border-radius: 9px;
+        background-color: rgba(255, 0, 170, 0.281);
+        font-size: 7px;
+    }
+    
+    #section-1 header nav a:nth-child(3) {
+        color: rgb(137, 124, 255);
+        border: 1.2px solid rgb(137, 124, 255);
+        padding: 3px;
+        border-radius: 9px;
+        background-color: rgba(11, 0, 170, 0.281);
+        font-size: 7px;
+    }
+    
+    #section-1 header nav a:nth-child(4) {
+        color: rgb(124, 255, 189);
+        border: 1.2px solid rgb(124, 255, 189);
+        padding: 3px;
+        border-radius: 9px;
+        background-color: rgba(124, 255, 189, 0.231);
+        font-size: 7px;
+    } 
+}
+
  
 #section-1 .container #left2 #titre-youtube {
     display: flex;
